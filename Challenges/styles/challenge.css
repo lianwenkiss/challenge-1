@@ -1,0 +1,152 @@
+/* Challenge 1 */
+
+.code {
+    overflow: hidden;
+}
+
+.code div {
+	color: #fff;
+	width: 100px;
+    height: 100px;
+    font:300 16px Helvetica, sans-serif;
+    text-align: center;
+    line-height: 98px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -ms-border-radius: 50px;
+}
+
+.challenge1 .code div {
+    float: left;
+
+    background: #6a5284; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  #6a5284 0%, #360360 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#6a5284), color-stop(100%,#360360)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  #6a5284 0%,#360360 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  #6a5284 0%,#360360 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  #6a5284 0%,#360360 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  #6a5284 0%,#360360 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a5284', endColorstr='#360360',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.challenge1 .code div:first-child {
+    background: #7f7f7f; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  #7f7f7f 0%, #474747 99%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#7f7f7f), color-stop(99%,#474747)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  #7f7f7f 0%,#474747 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  #7f7f7f 0%,#474747 99%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  #7f7f7f 0%,#474747 99%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  #7f7f7f 0%,#474747 99%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7f7f7f', endColorstr='#474747',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.challenge1 .code div:last-child {
+    background: #71935a; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  #71935a 0%, #306306 99%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#71935a), color-stop(99%,#306306)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  #71935a 0%,#306306 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  #71935a 0%,#306306 99%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  #71935a 0%,#306306 99%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  #71935a 0%,#306306 99%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#71935a', endColorstr='#306306',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+/* Challenge 2 */
+
+.challenge2,
+.challenge3,
+.challenge4 {
+	width: 885px;
+	position: relative;
+}
+
+.challenge2 .code div:nth-child(3n + 1),
+.challenge3 .code div:nth-child(3n + 1),
+.challenge4 .code div:nth-child(3n + 1) {
+	float: left;
+
+	background: #7f7f7f; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  #7f7f7f 0%, #474747 99%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#7f7f7f), color-stop(99%,#474747)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  #7f7f7f 0%,#474747 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  #7f7f7f 0%,#474747 99%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  #7f7f7f 0%,#474747 99%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  #7f7f7f 0%,#474747 99%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7f7f7f', endColorstr='#474747',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.challenge2 .code div:nth-child(3n),
+.challenge3 .code div:nth-child(3n),
+.challenge4 .code div:nth-child(3n) {
+	float: right;
+
+	background: #71935a; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  #71935a 0%, #306306 99%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#71935a), color-stop(99%,#306306)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  #71935a 0%,#306306 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  #71935a 0%,#306306 99%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  #71935a 0%,#306306 99%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  #71935a 0%,#306306 99%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#71935a', endColorstr='#306306',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.challenge2 .code div:nth-child(3n + 2),
+.challenge3 .code div:nth-child(3n + 2),
+.challenge4 .code div:nth-child(3n + 2) {
+	position: absolute;
+
+	background: #6a5284; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  #6a5284 0%, #360360 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#6a5284), color-stop(100%,#360360)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  #6a5284 0%,#360360 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  #6a5284 0%,#360360 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  #6a5284 0%,#360360 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  #6a5284 0%,#360360 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a5284', endColorstr='#360360',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.challenge2 .code div:nth-child(6n + 2),
+.challenge3 .code div:nth-child(6n + 2),
+.challenge4 .code div:nth-child(6n + 2) {
+	left: 338.5px;
+}
+
+.challenge2 .code div:nth-child(6n + 5),
+.challenge3 .code div:nth-child(6n + 5),
+.challenge4 .code div:nth-child(6n + 5) {
+	left: 444.5px;
+}
+
+/* Challenge 3 */
+
+.challenge3 .code div:nth-child(3n + 1):hover {
+	color: red;
+}
+
+.challenge3 .code div:nth-child(3n):hover {
+	background: blue;
+}
+
+.challenge3 .code div:nth-child(3n + 2):hover {
+	-webkit-animation: myanim 5s linear infinite;
+}
+
+ /* Safari and Chrome */
+@-webkit-keyframes myanim {
+	0% { left: 0; }
+	25%  { left: 50%; }
+	50%  { left: 100%; }
+	75%  { left: 50%; }
+	100% { left: 0; }
+}
+
+/* Challenge 4 */
+
+.challenge4 .code div:nth-child(3n + 2) {
+	-webkit-transition: left 1s;
+}
