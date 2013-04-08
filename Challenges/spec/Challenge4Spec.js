@@ -2,19 +2,9 @@
 (function() {
 
   describe("Challenge 4", function() {
-    beforeEach(function() {
+    return beforeEach(function() {
       setFixtures("<div class=\"challenge4\">\n  <div class=\"description\">\n    <h2>Challenge 3</h2>\n    <p>Apply the following animations to the styling from Challege 2 using only CSS</p>\n    <ul>\n        <li>1. Animate the text color of the left align divs to red on mouse over.</li>\n        <li>2. Animate the background color of the right align divs to blue on mouse over.</li>\n        <li>3. Animate the center align divs to slide back and forth horizontally on mouse over.</li>\n        <li>4. Halt animation of the center divs when mouse is clicked.</li>\n    </ul>\n    <img src=\"http://dl.dropbox.com/u/26385406/challenge3.png\"  />\n  </div>\n\n  <div class=\"code\">\n    <div>I am first</div><div>I am in the middle</div><div>I am last</div>\n    <div>I am first</div><div>I am in the middle</div><div>I am last</div>\n  </div>\n</div>");
       return this.positions = $(".challenge4 .code div");
-    });
-    return describe("left aligned items", function() {
-      return it("should have red text on mouseover", function() {
-        var position;
-        position = this.positions.eq(1);
-        position.mouseover();
-        return expect(position).toHaveCss({
-          color: "red"
-        });
-      });
     });
   });
 

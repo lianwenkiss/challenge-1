@@ -23,11 +23,3 @@ describe "Challenge 4", ->
     """
 
     @positions = $(".challenge4 .code div")
-
-  describe "left aligned items", ->
-
-    it "should have red text on mouseover", ->
-
-      position = @positions.eq(1)
-      position.mouseover()
-      expect(position).toHaveCss color: "red"
